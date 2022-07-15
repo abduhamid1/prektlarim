@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* bismillah */
+
+/* header start */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.container-fluid .navbar-brand {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 120% */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+header nav .search i {
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+header .carusel {
+    width: 100% !important;
+    height: 509px;
+    background: #DCE5E2;
+    border-radius: 32px;
+    margin-top: 28px;
+}
+
+header .carusel img {
+    width: 500px !important;
+    height: 509px;
+    margin-left: 57%;
+    border-radius: 15px;
+
+}
+
+.carousel-inner h5 {
+    margin-left: -560px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    /* or 120% */
+    color: #000000;
+}
+
+.carousel-inner p {
+    margin-top: 30px;
+    margin-bottom: 75px;
+    margin-left: -560px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 120% */
+    color: #000000;
+}
+
+.carousel-inner .btn {
+    border: 1px solid black;
+    padding: 10px 65px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 150px;
+    margin-left: 45px;
+}
+
+header .header_bottom h1 {
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+    margin-top: 75px;
+}
+
+header .header_bottom p {
+    width: 628px;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+main .main_start_boxss {
+    margin-top: 55px;
+}
+
+main .main_start_boxss {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+main .main_start_boxss .item_one {
+    width: 639px;
+    height: 472px;
+    box-shadow: -1px 1px 13px 10px rgba(34, 60, 80, 0.09);
+
+}
+
+main .main_start_boxss .laptop_class img {
+    width: 500px;
+    height: 377px;
+}
+
+main .main_start_boxss .laptop_class span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: right;
+
+    color: #000000;
+    display: block;
+    text-align: right;
+    margin-right: 42px;
+}
+
+main .main_start_boxss .laptop_class h5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+    margin-right: 42px;
+
+    text-align: right;
+
+    color: #000000;
+    text-align: right;
+}
+
+main .main_start_boxss .soat_class {
+    width: 639px;
+    height: 270px;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -1px 1px 13px 10px rgba(34, 60, 80, 0.09);
+}
+
+main .main_start_boxss .soat_class img {
+    width: 381px;
+    height: 270px;
+}
+
+main .main_start_boxss .soat_class .pep {
+    padding: 87px 0;
+}
+
+main .main_start_boxss .soat_class .pep span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+    display: block;
+    text-align: right;
+
+    color: #000000;
+    margin-right: 42px;
+}
+
+main .main_start_boxss .soat_class .pep h5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+    margin-right: 42px;
+
+
+    text-align: right;
+
+    color: #000000;
+
+}
+
+main .main_start_boxss .item_twoo {
+    display: flex;
+}
+
+main .main_start_boxss .item_twoo .box {
+    width: 312px;
+    height: 792px;
+    box-shadow: -14px 0px 16px -8px rgba(34, 60, 80, 0.29);
+}
+
+main .main_start_boxss .item_twoo .img img {
+    width: 296px;
+    margin-top: 144px;
+    margin-bottom: 41px;
+    height: 367px;
+}
+
+main .main_start_boxss .item_twoo p {
+    display: block;
+
+}
+
+main .main_start_boxss .item_twoo span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+    margin-left: 128px;
+
+    color: #000000;
+}
+
+main .main_start_boxss .item_twoo h5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    padding-left: 31px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+main .main_start_boxss .item_twoo .div {
+    margin-top: 114px;
+}
+
+main .main_start_boxss .item_twoo img {
+    margin-top: 42px;
+}
+
+main .main_start_boxss .item_twoo .tap {
+    box-shadow: 8px 0px 8px 6px rgba(34, 60, 80, 0.2);
+}
+
+main .main_twoo_title h5 {
+    width: 642;
+    height: 53px;
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+    margin-top: 78px;
+
+}
+
+main .main_twoo_title p {
+    width: 422;
+    height: 17px;
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+
+    color: #000000;
+    margin-top: 9px;
+
+
+}
+
+main .mains .box {
+    width: 303px;
+    height: 375px;
+    padding: 3px;
+    margin: auto;
+}
+
+main .mains .box img {
+    display: block;
+    margin: 25px auto;
+
+
+}
+
+main .mains .box h5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+
+main .mains .box p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+    width: 261px;
+    height: 34px;
+
+    color: #4B4B4B;
+
+}
+
+main .mains .box span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+    color: #000000;
+}
+
+main .mains2 .item {
+    width: 413px;
+    height: 453px;
+    margin: 56px auto;
+    background: #F8F9FA;
+    border-radius: 16px;
+    padding-top: 41px;
+}
+
+main .mains2 .item h6 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #000000;
+    display: block;
+
+}
+
+main .mains2 .item h4 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height, or 125% */
+    display: block;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+main .mains2 .item button {
+    background: #F8F9FA;
+    border-radius: 16px;
+    padding: 14px 63px;
+    display: block;
+    margin: 30px auto;
+}
+
+main .mains2 .item button span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+main .mains2 .item img {
+    width: 294px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+main .main_to_img {
+    width: 620px;
+    height: 420px;
+    padding-top: 56px;
+}
+
+main .main_to_img img {
+    width: 620px;
+    height: 420px;
+}
+
+main .main_to_img p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    color: #000000;
+    width: 569px;
+    height: 60px;
+    margin-top: 14px;
+}
+
+main .see_all {
+    margin-top: 100px;
+
+}
+
+main .see_all p {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+
+    text-transform: capitalize;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    color: #000000;
+
+}
+
+main .input input {
+    width: 650px;
+    height: 60px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+}
+
+main .input input::placeholder {
+    text-indent: 20px;
+}
+
+main .input img {
+
+    margin-right: 5px;
+}
+
+main .main_twoo_title .button {
+    margin-top: 50px;
+}
+
+main .main_twoo_title .button button {
+    margin-top: 18px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+main .foter_top {
+    width: 935px;
+    height: 500px;
+    margin: auto;
+    background: #DCE5E2;
+    border-radius: 16px;
+    margin-top: 163px;
+}
+
+main .foter_top {
+    padding-top: 1px;
+}
+
+main .foter_top p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+main .foter_top img {
+    margin: 14px;
+}
+
+main .foter_top .button_1 {
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+    width: 285px;
+    height: 50px;
+}
+
+main .foter_top .button_1 span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+main .foter_top .button_2 {
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    width: 115px;
+    height: 50px;
+}
+
+main .foter_top .button_2 span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.footer {
+    width: 95%;
+    height: 100%;
+    background: #F8F9FA;
+    border-radius: 0px;
+
+}
+
+.footer img {
+    margin-top: 35px;
+    display: block;
+    margin: auto;
+}
+
+.footer p {
+    width: 304px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 18px;
+    /* or 120% */
+
+
+    color: #000000;
+
+}
+
+
+.footer ul {
+    list-style-type: none;
+    padding-top: 44px;
+    display: block;
+    margin-bottom: 0;
+
+}
+
+.footer ul h3 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+
+.footer ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}

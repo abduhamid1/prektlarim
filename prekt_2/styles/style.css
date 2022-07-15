@@ -1,0 +1,882 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    height: 750px;
+    background: #F2AE4D;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background: #fff;
+    padding: 10px 0;
+    height: 70px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul .start::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: rgb(72, 72, 72);
+
+}
+
+header nav .logo_brend {
+    margin-left: 15px;
+}
+
+header nav li {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+header nav li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #011F3A;
+}
+
+header nav .logo_shop p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #011F3A;
+
+}
+
+header nav .logo_shop {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+header nav .logo_shop p {
+    margin-right: 30px;
+}
+
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.header_menu h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #011F3A;
+}
+
+.header_menu p {
+    margin-top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+
+    color: #011F3A;
+
+}
+
+.header_menu button {
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 15px 20px;
+    margin-top: 23px;
+}
+
+.header_menu .btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header_bottom {
+    background: #ffffff;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_bottom .box {
+    display: flex;
+    align-items: center;
+}
+
+.header_bottom .box p {
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+
+    letter-spacing: 0.6px;
+
+    color: #A1A1A1;
+
+}
+
+.header_bottom .btn_1 {
+    margin-left: 120px;
+}
+
+.header_bottom .btn_3 {
+    margin-right: 120px;
+}
+
+main .main_title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+main .main_title p {
+    margin-left: 155px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #011F3A;
+}
+
+main .main_title button {
+
+    background: #3D5675;
+    border-radius: 44px;
+    margin-right: 155px;
+}
+
+main .main_title button p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: center;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #FFFFFF;
+    margin: 13px 25px;
+
+}
+
+main {
+    background: #EEEEEE;
+    border-radius: 0px;
+    height: 100%;
+}
+
+main .shop_list {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+main .shop_now .box {
+    width: 400px;
+    height: 432px;
+    background: #FFFFFF;
+    border: 0.1px solid rgb(234, 228, 228);
+}
+
+main .shop_now .box img {
+    width: 315px;
+}
+
+main .shop_now .box span,
+p {
+    margin-left: 25px;
+}
+
+main .shop_now .box span {
+    margin-bottom: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.36px;
+
+    color: #011F3A;
+
+}
+
+main .shop_now .box p {
+    width: 197px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+
+    color: #777777;
+
+}
+
+main .shop_now .box_shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .shop_now .box_shop .shop {
+    margin-top: 15px;
+}
+
+main .shop_list_bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    align-items: center;
+
+}
+
+main .shop_list_bottom .p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #A1A1A1;
+}
+
+main .shop_list_bottom button {
+    background: #FFFFFF;
+    border-radius: 44px;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+main .shop_list_bottom button p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 20px;
+
+    color: #3D5675;
+
+}
+
+main .shop_list_bottom p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #A1A1A1;
+}
+
+main .main_info {
+    margin: 50px auto;
+    width: 1200px;
+    height: 772px;
+    background: #72BDA3;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+}
+
+main .main_info .main_title {
+    width: 1200px;
+}
+
+main .main_info .main_title p {
+    margin-left: 215px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+
+    color: #011F3A;
+
+}
+
+main .main_info_card .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main_info_card .card img {
+    width: 300px;
+    height: 300px;
+}
+
+main .main_info_card .card {
+    width: 300px;
+    margin: auto;
+}
+
+main .main_info_card .card .span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+    letter-spacing: 0.36px;
+
+    color: #011F3A;
+}
+
+main .main_info_card .card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    text-align: center;
+
+    color: #3D5675;
+
+}
+
+main .main_info_card .btn {
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 5px 10px;
+    display: block;
+    margin: 85px auto;
+}
+
+main .main_info_card .btn p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    margin-right: 15px;
+    text-align: center;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+main .the_arka {
+    width: 1200px;
+    height: 100%;
+    background: #EEEEEE;
+    margin: auto;
+
+}
+
+main .the_arka .title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height, or 128% */
+    margin-top: 88px;
+
+    color: #011F3A;
+
+}
+
+main .info_arka {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .cardd {
+    margin: auto;
+}
+
+main .cardd img {
+    margin-top: 70px;
+}
+
+main .cardd .eco {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height, or 128% */
+    margin-top: 50px;
+    letter-spacing: 0.36px;
+
+    color: #011F3A;
+
+}
+
+main .cardd .p_butt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    margin-bottom: 140px;
+    width: 247px;
+    color: #A1A1A1;
+}
+
+main .main_what {
+    background: #FFCA3A;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    width: 1200px;
+    height: 610px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+main .main_what .main_what_card {
+    margin: auto;
+
+}
+
+main .main_what .main_what_card img {
+    display: block;
+    margin: auto;
+}
+
+main .main_what .p_what {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #011F3A;
+}
+
+main .main_what .p_info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    text-align: center;
+
+    color: #3D5675;
+    width: 310px;
+    margin-top: 15px;
+
+}
+
+main .main_what button {
+    background: #FFFFFF;
+    border-radius: 44px;
+    width: 244px;
+    height: 44px;
+    align-items: center;
+    display: block;
+    margin: 15px auto;
+}
+
+main .main_what button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #3D5675;
+
+}
+
+main .main_what .img_height {
+    width: 1px;
+    height: 410px;
+}
+
+main .main_links {
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+}
+
+main .titless {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #011F3A;
+    padding-bottom: 60px;
+}
+
+main .main_links .main_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main_links .box {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+main .main_links .box h1 span {
+    font-size: 51px;
+}
+
+main .main_links .box .imgs img {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    color: yellow;
+}
+
+main .main_links .box_img {
+    width: 0.1px;
+    height: 70px;
+    background: gray;
+}
+
+main .main_links .box_shop_imgs .img_2 {
+    width: 175px;
+    height: 56px;
+}
+
+main .main_presonal {
+    width: 1200px;
+    padding-top: 100px;
+}
+
+main .main_presonal .d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main_presonal .d-flex img {
+    width: 200px;
+    height: 200px;
+}
+
+main .main_presonal .d-flex p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+
+    color: #011F3A;
+    padding: 20px 20px;
+
+}
+
+main .main_presonal .d-flex .item img {
+    width: 60px;
+    height: 60px;
+}
+
+main .main_presonal .d-flex .item {
+    display: flex;
+}
+
+main .main_presonal .d-flex .item .name_p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    color: #A1A1A1;
+    padding-left: 20px;
+
+}
+
+main .main_presonal .d-flex .item .jasse {
+    padding-right: 90px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #011F3A;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+main .main_presonal .d-flex .item .btn {
+    background: #F2F2F2;
+    border-radius: 44px;
+    width: 160px;
+    height: 44px;
+}
+
+main .main_presonal .d-flex .item .btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #3D5675;
+}
+
+main .main_button {
+    padding-top: 20px;
+    width: 100%;
+    height: 372px;
+    background: #EEEEEE;
+    border-radius: 0px;
+}
+
+main .main_button h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #011F3A;
+    margin-top: 100px;
+
+
+}
+
+main .main_button .clik_hero {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+main .main_button button {
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 10px 15px;
+    margin-top: 70px;
+
+}
+
+main .main_button .clik_hero .clic_next {
+    margin-left: 15px;
+    background: #FFFFFF;
+
+}
+
+main .main_button .clik_hero .clic_next p {
+    color: #3D5675;
+}
+
+main .main_button .clik_hero .btn p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-right: 18px;
+
+}
+
+footer {
+    background: #F2F3F4;
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 60px 120px;
+}
+
+footer .foter_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foter_box ul li {
+    margin-top: 17px;
+}
+
+footer .foter_box .lists_list ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #3D5675;
+}
+
+footer .foter_box .lists_tarmoqlar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #3D5675;
+}
+
+footer .foter_box .lists_email p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    margin-top: 17px;
+    margin-left: 1px;
+    color: #3D5675;
+}
+
+footer .foter_box .lists_email input {
+    background: #FFFFFF;
+    border-radius: 34px;
+    width: 280px;
+    height: 36px;
+    margin-top: 17px;
+
+}
+
+footer .foter_box .lists_email input::placeholder {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-indent:15px; 
+    /* identical to box height */
+
+
+    color: rgba(61, 86, 117, 0.4);
+}
+
+footer .foter_box .lists_email button {
+    background: #3D5675;
+    border-radius: 44px;
+    width: 187px;
+    height: 44px;
+    margin-top: 17px;
+}
+
+footer .foter_box .lists_email a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
