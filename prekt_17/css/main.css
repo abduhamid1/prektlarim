@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img__bg__img {
+  z-index: -1111;
+  position: absolute;
+  height: 1000px;
+}
+
+.btn__start {
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+.navbar-brand {
+  z-index: 11;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between;
+  width: 144px;
+}
+
+.img__logo {
+  position: relative;
+  top: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .img__bg__img {
+    z-index: -1111;
+    position: absolute;
+  }
+}
+.hero {
+  margin-top: 100px;
+}
+
+.texts h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 100px;
+  /* or 118% */
+  letter-spacing: -2px;
+  color: #FFFFFF;
+}
+.texts p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 42px;
+  /* or 233% */
+  color: #FFFFFF;
+}
+.texts .btn__grop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.texts .btn__grop .btn {
+  background: #FFFFFF;
+  color: #0F2137;
+  border-radius: 50px;
+}
+.texts .btn__grop .wathc {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.texts .btn__grop .wathc a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    margin-top: 50px;
+  }
+  .hero .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero .row .img__phone {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .texts h1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 118% */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+  .texts p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 233% */
+    color: #FFFFFF;
+  }
+  .texts .btn__grop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .texts .btn__grop .btn {
+    background: #FFFFFF;
+    color: #0F2137;
+    border-radius: 50px;
+  }
+  .texts .btn__grop .wathc {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .texts .btn__grop .wathc a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+}
+.app__title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  /* or 153% */
+  margin-top: 360px;
+  letter-spacing: -1.5px;
+  color: #0F2137;
+}
+
+.img__app {
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: auto;
+}
+
+.card {
+  padding: 40px;
+}
+.card .card-title {
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: normal;
+  color: #0F2137;
+}
+.card p {
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+  text-align: center;
+  color: #343D48;
+}
+
+.apps__title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  /* identical to box height, or 286% */
+  text-align: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #244886;
+}
+
+.apps {
+  margin-top: -100px;
+}
+
+.smart {
+  margin-top: 200px;
+}
+.smart .card {
+  padding: 20px;
+}
+.smart .card .card__body__img {
+  height: 57px;
+  width: 57px;
+}
+.smart .card .card__top__title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  /* identical to box height, or 286% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #244886;
+}
+.smart .card h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.5px;
+  color: #0F2137;
+}
+.smart .card .card__body .card__body__text {
+  margin-left: 20px;
+  text-align: start;
+}
+.smart .card .card__body .card__body__text h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #0F2137;
+}
+.smart .card .card__body .card__body__text p {
+  text-align: start;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  color: #343D48;
+}
+
+.footer__top {
+  margin-top: 150px;
+}
+.footer__top .texts p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  /* identical to box height, or 286% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #244886;
+}
+.footer__top .texts h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  /* or 115% */
+  letter-spacing: -1.5px;
+  color: #0F2137;
+}
+.footer__top .texts .pp {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 42px !important;
+  /* or 233% */
+  color: #02073E !important;
+}
+.footer__top .texts .btn {
+  padding: 13px 31px;
+  background: #1F3E76;
+  border-radius: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.16px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */

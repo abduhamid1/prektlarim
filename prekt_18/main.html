@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- fonts awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>all</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header" id="header">
+        <div class="header__contaiiner ">
+            <!-- start desktop -->
+            <nav class="header__top desktop">
+                <div class="header__top__link">
+                    <div class="headre__logo">
+                        <a href="#" class="headre__logo__img">
+                            <img src="./assets/img/logo.svg" alt="img">
+                        </a>
+                    </div>
+                    <div class="header__lists">
+                        <ul class="header__lists-links">
+                            <li class="header__link-item ">
+                                <a href="#" class=" features">features
+                                    <i class="fa-solid fa-angle-right icon1"></i></a>
+                                <div class="header__features__dropdown dropdown">
+                                    <a href="#" class="headre__link__items-list">
+                                        <img src="./assets/img/icon-todo.svg" alt="img">todo list</a>
+                                    <a href="#" class="headre__link__items-list">
+                                        <img src="./assets/img/icon-calendar.svg" alt="img">Calendar</a>
+                                    <a href="#" class="headre__link__items-list">
+                                        <img src="./assets/img/icon-reminders.svg" alt="img">Remindars</a>
+                                    <a href="#" class="headre__link__items-list">
+                                        <img src="./assets/img/icon-planning.svg" alt="img">Planing</a>
+                                </div>
+                            </li>
+                            <li class="header__link-item compani">
+                                <a href="#"> Compani <i class="fa-solid fa-angle-right icon2"></i></a>
+                                <div class="header__compani-dropdown dropdown2 ">
+                                    <a href="#" class="header__compani-dropdown-item">Historical</a>
+                                    <a href="#" class="header__compani-dropdown-item">Our team</a>
+                                    <a href="#" class="header__compani-dropdown-item">Blog</a>
+                                </div>
+                            </li>
+                            <li class="header__link-item">
+                                <a href="#">Carees</a>
+                            </li>
+                            <li class="header__link-item">
+                                <a href="#">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__btn">
+                    <a href="#" class="header__login">login</a>
+                    <a href="#" class="header__register">register</a>
+                </div>
+
+
+            </nav>
+            <!-- start mobile -->
+            <nav class="header__top mobile">
+                <div class="header__top__link">
+                    <div class="header__sm__flex d-flex justify-content-between align-items-center">
+                        <div class="headre__logo">
+                            <a href="#" class="headre__logo__img">
+                                <img src="./assets/img/logo.svg" alt="img">
+                            </a>
+                        </div>
+                        <button class="btn header__menu__icon">
+                            <i class="fa-solid fa-bars fs-1"></i>
+                        </button>
+                    </div>
+                    <div class="header__menu margin">
+
+                        <div class="header__lists">
+                            <ul class="header__lists-links">
+                                <li class="header__link-item ">
+                                    <a href="#" class=" features">features
+                                        <i class="fa-solid fa-angle-right icon1"></i></a>
+                                    <div class="header__features__dropdown dropdown">
+                                        <a href="#" class="headre__link__items-list">
+                                            <img src="./assets/img/icon-todo.svg" alt="img">todo list</a>
+                                        <a href="#" class="headre__link__items-list">
+                                            <img src="./assets/img/icon-calendar.svg" alt="img">Calendar</a>
+                                        <a href="#" class="headre__link__items-list">
+                                            <img src="./assets/img/icon-reminders.svg" alt="img">Remindars</a>
+                                        <a href="#" class="headre__link__items-list">
+                                            <img src="./assets/img/icon-planning.svg" alt="img">Planing</a>
+                                    </div>
+                                </li>
+                                <li class="header__link-item compani">
+                                    <a href="#"> Compani <i class="fa-solid fa-angle-right icon2"></i></a>
+                                    <div class="header__compani-dropdown dropdown2 qosh ">
+                                        <a href="#" class="header__compani-dropdown-item">Historical</a>
+                                        <a href="#" class="header__compani-dropdown-item">Our team</a>
+                                        <a href="#" class="header__compani-dropdown-item">Blog</a>
+                                    </div>
+                                </li>
+                                <li class="header__link-item">
+                                    <a href="#">Carees</a>
+                                </li>
+                                <li class="header__link-item">
+                                    <a href="#">About</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header__btn">
+                            <a href="#" class="header__login">login</a>
+                            <a href="#" class="header__register">register</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="main" id="main">
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 ">
+                        <h1>Make remoute work</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facilis ipsam debitis non
+                            repellendus veniam velit dolorem perferendis harum, fugit similique maxime sapiente dolore
+                            earum aliquid id temporibus tempora sequi quaerat commodi vel. Ratione cum culpa alias
+                            tempore beatae sed optio temporibus praesentium, eius neque quas vero sequi consectetur
+                            possimus.</p>
+                        <button class="btn bg-dark">Learn more</button>
+                        <div class="d-flex justify-content-between  mt-5">
+                            <a href="#">
+                                <img src="./assets/img/client-audiophile.svg" class="img-fluid" alt="img">
+                            </a>
+                            <a href="#"><img src="./assets/img/client-databiz.svg" class="img-fluid" alt="img"></a>
+                            <a href="#"><img src="./assets/img/client-maker.svg" class="img-fluid" alt="img"></a>
+                            <a href="#"><img src="./assets/img/client-meet.svg" class="img-fluid" alt="img"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                        <img src="./assets/img/image-hero-desktop.png" class="img-fluid" alt="img">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="footer" id="footer">
+
+    </footer>
+    <!-- footer end -->
+
+</body>
+<!-- js -->
+<script src="./assets/js/main.js"></script>
+
+</html>

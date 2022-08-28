@@ -1,0 +1,67 @@
+.smart{
+    margin-top: 200px;
+    .card{
+        .card__body__img{
+            height: 57px;
+            width: 57px;
+        }
+        padding: 20px;
+        .card__top__title{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            /* identical to box height, or 286% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+
+            color: #244886;
+        }
+        h2{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 55px;
+            /* or 115% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: -1.5px;
+
+            color: #0F2137;
+        }
+        .card__body{
+            .card__body__text{
+                margin-left: 20px;
+                text-align: start;
+                      h3{
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 23px;
+                display: flex;
+                align-items: center;
+
+                color: #0F2137;
+            }
+            p{
+                text-align: start;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 26px;
+                /* or 173% */
+                color: #343D48;
+            }
+            }
+      
+        }
+    }
+}

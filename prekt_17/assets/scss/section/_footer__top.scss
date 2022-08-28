@@ -1,0 +1,62 @@
+.footer__top {
+    margin-top: 150px;
+    .texts{
+        p{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            /* identical to box height, or 286% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+
+            color: #244886;
+        }
+        h2{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 55px;
+            /* or 115% */
+
+            letter-spacing: -1.5px;
+
+            color: #0F2137;
+
+        }
+        .pp{
+font-family: 'DM Sans' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 42px !important;
+/* or 233% */
+
+
+color: #02073E !important;
+
+        }
+        .btn{
+            padding: 13px 31px;
+
+            background: #1F3E76;
+            border-radius: 50px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+            letter-spacing: -0.16px;
+
+            color: #FFFFFF;
+        }
+
+    }
+}

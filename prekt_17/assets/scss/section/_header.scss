@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img__bg__img {
+    z-index: -1111;
+    position: absolute;
+    height: 1000px;
+}
+
+.btn__start {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.navbar-brand {
+    z-index: 11;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    width: 144px;
+
+}
+
+.img__logo {
+    position: relative;
+    top: 5px;
+}
+
+@media only screen and (max-width:576px) {
+    .img__bg__img {
+        z-index: -1111;
+        position: absolute;
+    }
+}
